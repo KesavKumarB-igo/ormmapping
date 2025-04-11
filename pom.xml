@@ -8,11 +8,11 @@
 		<version>3.4.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.springboot</groupId>
-	<artifactId>ORMMapping</artifactId>
+	<groupId>com.sprinboot</groupId>
+	<artifactId>ormmapping</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ORMMapping</name>
-	<description>Demo project for Spring Boot</description>
+	<name>ormmapping</name>
+	<description>ORM Mapping for Backend</description>
 	<url/>
 	<licenses>
 		<license/>

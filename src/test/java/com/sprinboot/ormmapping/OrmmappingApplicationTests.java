@@ -1,10 +1,10 @@
-package com.springboot.ORMMapping;
+package com.sprinboot.ormmapping;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OrmMappingApplicationTests {
+class OrmmappingApplicationTests {
 
 	@Test
 	void contextLoads() {
