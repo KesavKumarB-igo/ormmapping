@@ -1,12 +1,13 @@
 package com.sprinboot.ormmapping.service;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
-import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.sprinboot.ormmapping.entity.User;
+import com.sprinboot.ormmapping.mapper.UserMapper;
 import com.sprinboot.ormmapping.model.UserDTO;
 import com.sprinboot.ormmapping.repository.UserRepository;
 
@@ -16,23 +17,46 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class UserService {
 
-    @Autowired
-    private UserRepository userRepo;
+	@Autowired
+    private UserRepository userRepository;
+    
+	@Autowired
+	private UserMapper userMapper;
 
-    @Autowired
-    private ModelMapper modelMapper;
-
-    public UserDTO createUser(UserDTO userDto) {
-        User user = modelMapper.map(userDto, User.class);
-        User saved = userRepo.save(user);
-        return modelMapper.map(saved, UserDTO.class);
-    }
-    public User saveUser(User user) {
-        return userRepository.save(user);
+    // Create 
+	public UserDTO createUser(UserDTO dto) {
+        User user = userMapper.toEntity(dto);
+        return userMapper.toDto(userRepository.save(user));
     }
 
-    public List<User> getAllUsers() {
-        return userRepository.findAll();
+    // Get All
+	public List<UserDTO> getAllUsers() {
+        return userRepository.findAll()
+                .stream()
+                .map(userMapper::toDto)
+                .collect(Collectors.toList());
     }
 
+    // Get by ID
+	public UserDTO getUserById(Long id) {
+        User user = userRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("User not found"));
+        return userMapper.toDto(user);
+    }
+	
+	//Update
+	public UserDTO updateUser(Long id, UserDTO dto) {
+		if(!userRepository.existsById(id))
+		{
+			throw new RuntimeException("User not found");
+		}
+        User user = userMapper.toEntity(dto);
+        user.setId(id);
+        return userMapper.toDto(userRepository.save(user));
+    }
+
+    // Delete
+    public void deleteUser(Long id) {
+        userRepository.deleteById(id);
+    }
 }

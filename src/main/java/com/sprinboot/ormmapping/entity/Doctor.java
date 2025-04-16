@@ -2,6 +2,7 @@ package com.sprinboot.ormmapping.entity;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -11,14 +12,9 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
 import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.AllArgsConstructor;
 
-
-@Data
 @Entity
-@NoArgsConstructor
-@AllArgsConstructor
+@Data
 public class Doctor {
 
     @Id
