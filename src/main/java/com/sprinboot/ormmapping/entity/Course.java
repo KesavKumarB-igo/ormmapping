@@ -1,19 +1,16 @@
 package com.sprinboot.ormmapping.entity;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToMany;
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
-@Data
 @Entity
-@NoArgsConstructor
-@AllArgsConstructor
+@Data
 public class Course {
     @Id 
     @GeneratedValue
@@ -23,4 +20,5 @@ public class Course {
 
     @ManyToMany(mappedBy = "courses")
     private List<Student> students = new ArrayList<>();
+    
 }

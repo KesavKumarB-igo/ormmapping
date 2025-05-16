@@ -1,0 +1,151 @@
+2025-04-16T10:59:38.534+05:30  INFO 10372 --- [ormmapping] [restartedMain] c.s.ormmapping.OrmmappingApplication     : Starting OrmmappingApplication using Java 17.0.1 with PID 10372 (D:\Eclipse\ormmapping\target\classes started by kesavkumar.b in D:\Eclipse\ormmapping)
+2025-04-16T10:59:38.538+05:30 DEBUG 10372 --- [ormmapping] [restartedMain] c.s.ormmapping.OrmmappingApplication     : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-16T10:59:38.541+05:30  INFO 10372 --- [ormmapping] [restartedMain] c.s.ormmapping.OrmmappingApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-04-16T10:59:38.635+05:30  INFO 10372 --- [ormmapping] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-16T10:59:38.669+05:30  INFO 10372 --- [ormmapping] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-16T10:59:43.863+05:30  INFO 10372 --- [ormmapping] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-16T10:59:44.025+05:30  INFO 10372 --- [ormmapping] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 139 ms. Found 4 JPA repository interfaces.
+2025-04-16T10:59:44.731+05:30  INFO 10372 --- [ormmapping] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-16T10:59:44.752+05:30  INFO 10372 --- [ormmapping] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-16T10:59:44.753+05:30  INFO 10372 --- [ormmapping] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-16T10:59:44.896+05:30  INFO 10372 --- [ormmapping] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-16T10:59:44.897+05:30  INFO 10372 --- [ormmapping] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6227 ms
+2025-04-16T10:59:45.158+05:30  INFO 10372 --- [ormmapping] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-16T10:59:45.241+05:30  INFO 10372 --- [ormmapping] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-16T10:59:45.302+05:30  INFO 10372 --- [ormmapping] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-16T10:59:45.688+05:30  INFO 10372 --- [ormmapping] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-16T10:59:45.744+05:30  INFO 10372 --- [ormmapping] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-16T10:59:46.191+05:30  INFO 10372 --- [ormmapping] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c9ff428
+2025-04-16T10:59:46.195+05:30  INFO 10372 --- [ormmapping] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-16T10:59:50.138+05:30  INFO 10372 --- [ormmapping] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.36
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-16T10:59:51.503+05:30  INFO 10372 --- [ormmapping] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-16T10:59:54.340+05:30  INFO 10372 --- [ormmapping] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-16T10:59:55.135+05:30  WARN 10372 --- [ormmapping] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-16T11:00:07.212+05:30  INFO 10372 --- [ormmapping] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-16T11:00:08.771+05:30  INFO 10372 --- [ormmapping] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-16T11:00:08.818+05:30  INFO 10372 --- [ormmapping] [restartedMain] c.s.ormmapping.OrmmappingApplication     : Started OrmmappingApplication in 31.103 seconds (process running for 32.319)
+2025-04-16T11:00:14.127+05:30  INFO 10372 --- [ormmapping] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-04-16T11:00:14.136+05:30  INFO 10372 --- [ormmapping] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-16T11:00:14.823+05:30  INFO 10372 --- [ormmapping] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-16T11:00:14.830+05:30  INFO 10372 --- [ormmapping] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-16T11:00:14.835+05:30  INFO 10372 --- [ormmapping] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-16T11:00:14.853+05:30  INFO 10372 --- [ormmapping] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-16T11:07:13.626+05:30  INFO 3116 --- [ormmapping] [restartedMain] c.s.ormmapping.OrmmappingApplication     : Starting OrmmappingApplication using Java 17.0.1 with PID 3116 (D:\Eclipse\ormmapping\target\classes started by kesavkumar.b in D:\Eclipse\ormmapping)
+2025-04-16T11:07:13.629+05:30 DEBUG 3116 --- [ormmapping] [restartedMain] c.s.ormmapping.OrmmappingApplication     : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-16T11:07:13.631+05:30  INFO 3116 --- [ormmapping] [restartedMain] c.s.ormmapping.OrmmappingApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-04-16T11:07:13.715+05:30  INFO 3116 --- [ormmapping] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-16T11:07:13.716+05:30  INFO 3116 --- [ormmapping] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-16T11:07:14.869+05:30  INFO 3116 --- [ormmapping] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-16T11:07:15.038+05:30  INFO 3116 --- [ormmapping] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 151 ms. Found 4 JPA repository interfaces.
+2025-04-16T11:07:15.797+05:30  INFO 3116 --- [ormmapping] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-16T11:07:15.819+05:30  INFO 3116 --- [ormmapping] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-16T11:07:15.820+05:30  INFO 3116 --- [ormmapping] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-16T11:07:15.918+05:30  INFO 3116 --- [ormmapping] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-16T11:07:15.919+05:30  INFO 3116 --- [ormmapping] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2201 ms
+2025-04-16T11:07:16.214+05:30  INFO 3116 --- [ormmapping] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-16T11:07:16.297+05:30  INFO 3116 --- [ormmapping] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-16T11:07:16.364+05:30  INFO 3116 --- [ormmapping] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-16T11:07:16.786+05:30  INFO 3116 --- [ormmapping] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-16T11:07:16.844+05:30  INFO 3116 --- [ormmapping] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-16T11:07:17.314+05:30  INFO 3116 --- [ormmapping] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@94f49bd
+2025-04-16T11:07:17.318+05:30  INFO 3116 --- [ormmapping] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-16T11:07:17.472+05:30  INFO 3116 --- [ormmapping] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.36
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-16T11:07:18.854+05:30  INFO 3116 --- [ormmapping] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-16T11:08:13.062+05:30  INFO 3116 --- [ormmapping] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-16T11:08:13.482+05:30  WARN 3116 --- [ormmapping] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-16T11:08:14.016+05:30  INFO 3116 --- [ormmapping] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-16T11:08:14.105+05:30  INFO 3116 --- [ormmapping] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-16T11:08:14.122+05:30  INFO 3116 --- [ormmapping] [restartedMain] c.s.ormmapping.OrmmappingApplication     : Started OrmmappingApplication in 61.209 seconds (process running for 62.44)
+2025-04-16T11:26:08.398+05:30  INFO 3116 --- [ormmapping] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-04-16T11:26:08.406+05:30  INFO 3116 --- [ormmapping] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-16T11:26:09.083+05:30  INFO 3116 --- [ormmapping] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-16T11:26:09.325+05:30  INFO 3116 --- [ormmapping] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-16T11:26:09.631+05:30  INFO 3116 --- [ormmapping] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-16T11:26:10.173+05:30  INFO 3116 --- [ormmapping] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-16T11:26:12.130+05:30  INFO 3116 --- [ormmapping] [restartedMain] c.s.ormmapping.OrmmappingApplication     : Starting OrmmappingApplication using Java 17.0.1 with PID 3116 (D:\Eclipse\ormmapping\target\classes started by kesavkumar.b in D:\Eclipse\ormmapping)
+2025-04-16T11:26:12.130+05:30 DEBUG 3116 --- [ormmapping] [restartedMain] c.s.ormmapping.OrmmappingApplication     : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-16T11:26:12.131+05:30  INFO 3116 --- [ormmapping] [restartedMain] c.s.ormmapping.OrmmappingApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-04-16T11:26:14.031+05:30  INFO 3116 --- [ormmapping] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-16T11:26:14.096+05:30  INFO 3116 --- [ormmapping] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 4 JPA repository interfaces.
+2025-04-16T11:26:14.376+05:30  INFO 3116 --- [ormmapping] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-16T11:26:14.377+05:30  INFO 3116 --- [ormmapping] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-16T11:26:14.378+05:30  INFO 3116 --- [ormmapping] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-16T11:26:14.449+05:30  INFO 3116 --- [ormmapping] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-16T11:26:14.450+05:30  INFO 3116 --- [ormmapping] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2314 ms
+2025-04-16T11:26:14.528+05:30  INFO 3116 --- [ormmapping] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-16T11:26:14.534+05:30  INFO 3116 --- [ormmapping] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-16T11:26:14.647+05:30  INFO 3116 --- [ormmapping] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-16T11:26:14.648+05:30  INFO 3116 --- [ormmapping] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-04-16T11:26:14.706+05:30  INFO 3116 --- [ormmapping] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1054875a
+2025-04-16T11:26:14.706+05:30  INFO 3116 --- [ormmapping] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-04-16T11:26:14.709+05:30  INFO 3116 --- [ormmapping] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.36
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-16T11:26:14.956+05:30  INFO 3116 --- [ormmapping] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-16T11:26:15.378+05:30  INFO 3116 --- [ormmapping] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-16T11:26:15.538+05:30  WARN 3116 --- [ormmapping] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-16T11:26:15.703+05:30  INFO 3116 --- [ormmapping] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-16T11:26:15.972+05:30  INFO 3116 --- [ormmapping] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-16T11:26:15.983+05:30  INFO 3116 --- [ormmapping] [restartedMain] c.s.ormmapping.OrmmappingApplication     : Started OrmmappingApplication in 4.084 seconds (process running for 1144.3)
+2025-04-16T11:26:15.986+05:30  INFO 3116 --- [ormmapping] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-16T11:26:16.390+05:30  INFO 3116 --- [ormmapping] [RMI TCP Connection(21)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-04-16T11:26:16.394+05:30  INFO 3116 --- [ormmapping] [RMI TCP Connection(21)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-16T11:26:17.063+05:30  INFO 3116 --- [ormmapping] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-16T11:26:17.067+05:30  INFO 3116 --- [ormmapping] [RMI TCP Connection(21)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-16T11:26:17.068+05:30  INFO 3116 --- [ormmapping] [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-04-16T11:26:17.083+05:30  INFO 3116 --- [ormmapping] [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-04-16T11:56:32.540+05:30  INFO 5988 --- [ormmapping] [restartedMain] c.s.ormmapping.OrmmappingApplication     : Starting OrmmappingApplication using Java 17.0.1 with PID 5988 (D:\Eclipse\ormmapping\target\classes started by kesavkumar.b in D:\Eclipse\ormmapping)
+2025-04-16T11:56:32.543+05:30 DEBUG 5988 --- [ormmapping] [restartedMain] c.s.ormmapping.OrmmappingApplication     : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-16T11:56:32.546+05:30  INFO 5988 --- [ormmapping] [restartedMain] c.s.ormmapping.OrmmappingApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-04-16T11:56:32.656+05:30  INFO 5988 --- [ormmapping] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-16T11:56:32.657+05:30  INFO 5988 --- [ormmapping] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-16T11:56:34.127+05:30  INFO 5988 --- [ormmapping] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-16T11:56:34.378+05:30  INFO 5988 --- [ormmapping] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 224 ms. Found 6 JPA repository interfaces.
+2025-04-16T11:56:35.640+05:30  INFO 5988 --- [ormmapping] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-16T11:56:35.697+05:30  INFO 5988 --- [ormmapping] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-16T11:56:35.698+05:30  INFO 5988 --- [ormmapping] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-16T11:56:35.843+05:30  INFO 5988 --- [ormmapping] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-16T11:56:35.844+05:30  INFO 5988 --- [ormmapping] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3187 ms
+2025-04-16T11:56:36.342+05:30  INFO 5988 --- [ormmapping] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-16T11:56:36.649+05:30  INFO 5988 --- [ormmapping] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-16T11:56:36.982+05:30  INFO 5988 --- [ormmapping] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-16T11:56:37.849+05:30  INFO 5988 --- [ormmapping] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-16T11:56:38.001+05:30  INFO 5988 --- [ormmapping] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-16T11:56:39.370+05:30  INFO 5988 --- [ormmapping] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e2880f5
+2025-04-16T11:56:39.377+05:30  INFO 5988 --- [ormmapping] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-16T11:56:39.748+05:30  INFO 5988 --- [ormmapping] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.36
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-16T11:56:42.243+05:30  INFO 5988 --- [ormmapping] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-16T11:56:42.372+05:30  INFO 5988 --- [ormmapping] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-16T11:56:42.846+05:30  WARN 5988 --- [ormmapping] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-16T11:56:43.396+05:30  INFO 5988 --- [ormmapping] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-16T11:56:43.694+05:30  INFO 5988 --- [ormmapping] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-16T11:56:43.713+05:30  INFO 5988 --- [ormmapping] [restartedMain] c.s.ormmapping.OrmmappingApplication     : Started OrmmappingApplication in 12.63 seconds (process running for 16.922)
+2025-04-16T12:19:42.571+05:30  INFO 5988 --- [ormmapping] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-16T12:19:42.571+05:30  INFO 5988 --- [ormmapping] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-16T12:19:42.575+05:30  INFO 5988 --- [ormmapping] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
